@@ -110,27 +110,6 @@ Streamlit prototype (Dia-Explain)
 - **App:** `streamlit`, `pandas`, `numpy`, `matplotlib`
 - **Environment:** conda (`diabetes_ai`, Python 3.10)
 
-## Repository structure
-dia-explain/
-├── notebooks/
-│ └── dia_explain_training.ipynb # Full training + evaluation pipeline
-├── src/
-│ ├── train.py # Standalone training script
-│ └── evaluate.py # Reproduces all reported metrics
-├── app/
-│ └── app.py # Streamlit HitL prototype
-├── data/
-│ └── README.md # Dataset source and description
-├── figures/
-│ ├── confusion_matrix.png
-│ ├── roc_curves.png
-│ └── reliability_diagram.png
-├── paper/
-│ └── Dia_Explain_IEEE.pdf # Submitted manuscript
-├── requirements.txt
-└── README.md
-
-
 ## Reproducing the results
 
 ```bash
